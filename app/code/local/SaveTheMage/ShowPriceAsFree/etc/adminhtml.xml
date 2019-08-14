@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<config>
+<menu>
+ <SaveTheMageMenu translate="title" module="ShowPriceAsFree">
+    <title>SaveTheMage</title>
+    <sort_order>201</sort_order>
+    <children>	
+        <ShowPriceAsFreeChildItem1 translate="title" module="ShowPriceAsFree">
+            <title>Show Price as Free</title>
+            <action>adminhtml/system_config/edit/section/ShowPriceAsFree_options</action>
+            <sort_order>2</sort_order>
+            <children>	
+                <ShowPriceAsFreeChildItemChild1 translate="title" module="ShowPriceAsFree">
+                    <title>Settings</title>
+                    <action>adminhtml/system_config/edit/section/ShowPriceAsFree_options</action>
+                    <sort_order>1</sort_order>                        
+                </ShowPriceAsFreeChildItemChild1>
+            </children>                  
+        </ShowPriceAsFreeChildItem1>
+    </children>
+ </SaveTheMageMenu>
+    </menu>
+        
+<acl>
+<resources>
+<admin>
+<children>
+<system>
+<children>
+<config>
+<children>
+<ShowPriceAsFree_options translate="title" module="ShowPriceAsFree">
+        <title>Show Price as Free Settings Section</title>
+        <sort_order>0</sort_order>
+</ShowPriceAsFree_options>
+</children>
+</config>
+</children>
+</system>
+</children>
+</admin>
+</resources>
+</acl>
+</config>

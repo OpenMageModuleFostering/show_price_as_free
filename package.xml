@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Show_Price_As_Free</name>
+    <version>1.2.0</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Changes 0.00 Price to Free</summary>
+    <description>Change 0.00 Price to FREE automatically with this extension.</description>
+    <notes>1st Official Release</notes>
+    <authors><author><name>SaveTheMage</name><user>SaveTheMage</user><email>support@savethemage.com</email></author></authors>
+    <date>2013-08-09</date>
+    <time>21:28:02</time>
+    <contents><target name="magelocal"><dir name="SaveTheMage"><dir name="ShowPriceAsFree"><dir name="Helper"><file name="Data.php" hash="ba3e13713f0a59a10f12809c8f0bc729"/><file name="Product.php" hash="9221c0e3b5665b5c2e8885ef2459f669"/></dir><dir name="Model"><file name="Price.php" hash="f6890b981c710c3793c4a621ab24b213"/></dir><dir name="etc"><file name="adminhtml.xml" hash="c192a26070150b6dbe09fa3d4b8b9337"/><file name="config.xml" hash="7ebaf14c56eaab7896af3b804149b53d"/><file name="system.xml" hash="19389bf15e7dc7058d9802d629a306a9"/></dir><dir name="sql"><dir name="savethemage_showpriceasfree_setup"><file name="mysql4-install-1.1.1.php" hash="85d5d677f1a944ac24650bae2c3893c3"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="SaveTheMage_ShowPriceAsFree.xml" hash="327f54dc489cae41a28ba1b6de9f4eed"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

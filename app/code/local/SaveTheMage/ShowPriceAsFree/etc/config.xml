@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SaveTheMage_ShowPriceAsFree>
+                <version>1.2.0</version>
+        </SaveTheMage_ShowPriceAsFree>
+    </modules> 
+    <global>
+        <blocks>
+
+        </blocks>
+
+        <helpers>
+            <core>
+                <rewrite>
+                    <data>SaveTheMage_ShowPriceAsFree_Helper_Product</data>
+                </rewrite>
+            </core>
+            <ShowPriceAsFree>
+                    <class>SaveTheMage_ShowPriceAsFree_Helper</class>
+            </ShowPriceAsFree>
+        </helpers>
+       
+        <resources>
+        <savethemage_showpriceasfree_setup>
+            <setup>
+                <module>SaveTheMage_ShowPriceAsFree</module>
+                <class>Mage_Core_Model_Resource_Setup</class>
+            </setup>
+            <connection>
+                <use>core_setup</use>
+            </connection>
+        </savethemage_showpriceasfree_setup>
+    </resources>
+    </global>
+</config>

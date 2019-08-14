@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Show_Price_As_Free",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "Changes 0.00 Price to Free",
+    "authors": [
+    {
+        "name": "SaveTheMage",
+        "email": "support@savethemage.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

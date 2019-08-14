@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+        <tabs>
+        <SaveTheMageconfig translate="label" module="ShowPriceAsFree">
+                <label>SaveTheMage</label>
+                <sort_order>600</sort_order>
+        </SaveTheMageconfig>
+	</tabs>	
+	<sections>
+            <ShowPriceAsFree_options translate="label" module="ShowPriceAsFree">
+			<label>Show Price as FREE Settings</label>
+			<tab>SaveTheMageconfig</tab>
+			<frontend_type>text</frontend_type>
+			<sort_order>1000</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>1</show_in_website>
+			<show_in_store>0</show_in_store>
+            <groups>
+            <Config translate="label">
+                <label>Main</label>
+                <show_in_default>1</show_in_default>
+                <show_in_website>1</show_in_website>
+                <show_in_store>0</show_in_store>
+                <fields>
+                    <Enabled translate="label">
+                            <label>Enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <comment><![CDATA[Yes=Enabled]]></comment>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                    </Enabled>
+                </fields>
+            </Config>
+        </groups>
+    </ShowPriceAsFree_options>
+    </sections>
+</config>
